@@ -1,0 +1,1 @@
+Ignore all dags besides the one listed in the AI4SAR_staging_workflow.py file.

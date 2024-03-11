@@ -1,0 +1,4 @@
+Python scripts for parsing from separate data sources.
+Please make a separate parser for each data source.
+You must make a new DAG for each parser when integrating into Airflow. Changes to the Airflow DAGs should be made in the `dags` directory.
+On completion of a parser, create a pull request to merge your parser as well as its integration into Airflow into the main branch.
