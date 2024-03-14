@@ -1,7 +1,6 @@
 # AI4SAR-Distributed-Data-Modeling
 ## Requirements
-1. You have docker and docker-compose downloaded
-2. You must have
+1. You must have docker and docker-compose downloaded
 
 ## Steps
 1. Run `docker-compose up airflow-init` to run database migrations
