@@ -61,6 +61,9 @@ For detailed usage and additional configurations, consult the official Apache Ai
 2. **Successful Workflow in Apache Airflow**
     - ![Workflow](https://i.imgur.com/LGyW5VG.png)
 
+3. **Hugging Face Model Repository**
+    - ![Hugging Face](https://i.imgur.com/wozoGtU.png)
+
 ## To Be Done for Productionizing
 1. Currently, models and data are stored locally, so it would be better to store them in a cloud storage service such as AWS S3.
 2. Another step may need to be added to publish the model to another source so that it can be accessed via a restful API rather than having to pull the model from Hugging Face each time.
