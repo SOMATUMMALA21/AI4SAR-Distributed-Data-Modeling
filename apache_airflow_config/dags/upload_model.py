@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, f1_score
 import matplotlib.pyplot as plt
 import pandas as pd
 
-def upload_model_to_huggingface(model_dir='output/model', model_file='model.pkl', testing_data_file='output/testing/accuracy.pkl', repo_id='stummala521/AI4SAR'):
+def upload_model_to_huggingface(model_dir='output/model', model_file='model.pkl', testing_data_file='output/testing/accuracy.pkl', repo_id='REPLACE_ME'):
     # Check if model file exists
     model_path = os.path.join(model_dir, model_file)
     if not os.path.exists(model_path):

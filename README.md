@@ -15,7 +15,7 @@
    ```
 
 ## View
-1. Open your web browser and go to: [http://localhost:8080](http://localhost:8080)(Note: This may be different if you host the service on a remote server).
+1. Open your web browser and go to: [http://localhost:8080](http://localhost:8080)
 2. Use the following credentials to log in:
    - **Username:** airflow
    - **Password:** airflow
@@ -54,6 +54,10 @@ For detailed usage and additional configurations, consult the official Apache Ai
    - Generate an access token.
    - Use the Hugging Face CLI inside the container to log in and enable model updates.
 
+### Note on Model Upload
+- You must create your own Hugging Face repository before uploading your model.
+- Replace `REPLACE_ME` in `upload_model.py` with your repository details to enable successful uploads.
+
 ## Images
 1. **Apache Airflow at localhost:8080**
     - ![Airflow](https://i.imgur.com/OoehmM1.png)
@@ -67,3 +71,4 @@ For detailed usage and additional configurations, consult the official Apache Ai
 ## To Be Done for Productionizing
 1. Currently, models and data are stored locally, so it would be better to store them in a cloud storage service such as AWS S3.
 2. Another step may need to be added to publish the model to another source so that it can be accessed via a restful API rather than having to pull the model from Hugging Face each time.
+3. When retrieving data, please enfure that you create a new API token when getting NY missing cases from skops. Make sure to address the REPLACE_ME in data_retrieval.py.

@@ -7,8 +7,8 @@ def retrieve_and_publish_sar_data():
     # Initialize Socrata client
     client = Socrata("data.ny.gov", None)
 
-    # Fetch data from API
-    results = client.get("u6hu-h7p5", limit=2000)
+    # Fetch data from API(Note: replace with your own api ID and token)
+    results = client.get("u6hu-h7p5", limit=2000) # REPLACE_ME
 
     # Convert results to DataFrame
     results_df = pd.DataFrame.from_records(results)
