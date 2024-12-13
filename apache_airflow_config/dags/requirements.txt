@@ -1,0 +1,10 @@
+sodapy
+skops
+pandas
+joblib
+scikit-learn
+pickle-mixin
+numpy
+matplotlib
+huggingface_hub
+pathlib
