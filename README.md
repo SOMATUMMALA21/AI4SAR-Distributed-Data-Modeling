@@ -15,7 +15,7 @@
    ```
 
 ## View
-1. Open your web browser and go to: [http://localhost:8080](http://localhost:8080)
+1. Open your web browser and go to: [http://localhost:8080](http://localhost:8080)(Note: This may be different if you host the service on a remote server).
 2. Use the following credentials to log in:
    - **Username:** airflow
    - **Password:** airflow
@@ -56,10 +56,10 @@ For detailed usage and additional configurations, consult the official Apache Ai
 
 ## Images
 1. **Apache Airflow at localhost:8080**
-    - [Docker Hub](https://i.imgur.com/OoehmM1.png)
+    - ![Airflow](https://i.imgur.com/OoehmM1.png)
 
 2. **Successful Workflow in Apache Airflow**
-    - [Docker Hub](https://i.imgur.com/LGyW5VG.png)
+    - ![Workflow](https://i.imgur.com/LGyW5VG.png)
 
 ## To Be Done for Productionizing
 1. Currently, models and data are stored locally, so it would be better to store them in a cloud storage service such as AWS S3.
